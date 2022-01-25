@@ -4,4 +4,33 @@
 
 .rhap_container {
   border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: whitesmoke;
+}
+
+.song {
+  background-color: whitesmoke;
+  padding: 5px 0px;
+  margin: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgb(0, 0, 0, .3);
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.song:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.song.active {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.song-name {
+  margin: 7px 0px;
+}
+
+.song svg {
+  margin: 5px;
 }
