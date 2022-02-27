@@ -42,7 +42,7 @@ const AudioPlayer = () => {
           layout='stacked-reverse'
         />
       </div>
-      <TrackList trackIndex={trackIndex} setTrackIndex={setTrackIndex} />
+      <TrackList trackIndex={trackIndex} setTrackIndex={setTrackIndex} playing={playing} />
     </>
   );
   
