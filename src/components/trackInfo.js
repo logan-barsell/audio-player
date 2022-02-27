@@ -1,4 +1,4 @@
-import trampled from './audio/trampled.m4a';
+import trampled from './audio/trampled.mp3';
 import blackdog from './audio/blackdog.mp3';
 import breakdown from './audio/breakdown.mp3';
 import heart from './audio/heart.mp3';
