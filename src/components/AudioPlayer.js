@@ -1,4 +1,4 @@
-import cover from './images/yesdevilgas.jpg';
+import cover from './images/ledzep.jpg';
 
 import React, { useState } from 'react';
 import PlayerControls from 'react-h5-audio-player';
@@ -42,7 +42,7 @@ const AudioPlayer = () => {
           layout='stacked-reverse'
         />
       </div>
-      <TrackList trackIndex={trackIndex} setTrackIndex={setTrackIndex} playing={playing} />
+      <TrackList trackIndex={trackIndex} setTrackIndex={setTrackIndex} />
     </>
   );
   
