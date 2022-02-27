@@ -29,7 +29,7 @@ const AudioPlayer = () => {
   return(
     <>
       <div>
-        <img id="cover-img" src={cover}/>
+        <img id="cover-img" src={cover} alt="album cover"/>
       
         <PlayerControls
           src={trackInfo[trackIndex].src}
