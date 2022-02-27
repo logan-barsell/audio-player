@@ -1,12 +1,37 @@
-#audio-player {
-  margin-top: 50px;
-}
-
 .rhap_container {
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 5px;
   box-shadow: none;
   border: 1px solid rgba(0, 0, 0, 0.3);
   background-color: whitesmoke;
+}
+
+.rhap_main-controls-button {
+  color: slategray;
+}
+
+.rhap_volume-indicator {
+  background: slategray;
+}
+
+.rhap_volume-button {
+  color: slategray;
+}
+
+.rhap_progress-indicator {
+  background: slategray;
+}
+
+.rhap_repeat-button {
+  color: slategray;
+}
+
+#audio-player {
+  margin: 50px 0px;
+}
+
+#cover-img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .song {
@@ -14,23 +39,16 @@
   padding: 5px 0px;
   margin: 7px;
   border-radius: 5px;
-  box-shadow: 0px 0px 3px rgb(0, 0, 0, .3);
+  box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.3);
   cursor: pointer;
   transition: 250ms;
+  height: 45px;
 }
 
 .song:hover {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .song.active {
-  background-color: rgba(0,0,0,0.1);
-}
-
-.song-name {
-  margin: 7px 0px;
-}
-
-.song svg {
-  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
