@@ -1,4 +1,4 @@
-import cover from './images/ledzep.jpg';
+import cover from './images/mothership.jpg';
 
 import React, { useState } from 'react';
 import PlayerControls from 'react-h5-audio-player';
